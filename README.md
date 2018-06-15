@@ -2,7 +2,7 @@
 
 # Description
 
-Simple monitoring example of camunda overdue camunda user tasks.
+Simple monitoring example for overdue of camunda user tasks.
 
 With every active user task a camunda job is persisted which is trigger if due date of user task is reached and it is not completed or deleted.
 If job is triggered a custom job handler is called delegates to an escalation service.
